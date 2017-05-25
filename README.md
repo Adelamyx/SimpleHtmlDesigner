@@ -6,9 +6,9 @@
 高级功能*：可以给元素添加animate.css动画，点击保存按钮可以保存在本地html5的localstorage，同时模拟ajax后台数据存储，点预览可以弹窗进行所编辑内容的预览。</p>
 ##所使用的JS库
 <ul>
-  <li>JQuery(基础)</li>
+  <li>JQuery(基础)(http://jquery.com/download/)</li>
   <li>RequireJS(基础JS模块化架构)</li>
-  <li>bootstrap(UI)</li>
+  <li>bootstrap(UI)(http://getbootstrap.com/)</li>
   <li>backbone+underscore(MVC)</li>
   <li>JQuery-UI(其他UI功能)</li>
   <li>UEeditor (http://ueditor.baidu.com/website/index.html) </li>
@@ -17,3 +17,6 @@
   <li>grunt/r.js(打包)</li>
   <li>GitHub(程序仓库)</li>
 </ul>
+
+
+<p>页面左边 布局：Bootstrap 标签页（Tab）插件 （http://www.runoob.com/bootstrap/bootstrap-tab-plugin.html）</p>

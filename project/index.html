@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="utf-8">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+    <!--container和container-fluid有区别，自己可以测试-->
+    <div class="row">
+        <h3 class="text-center">一个简易的内容编辑器</h3>
+    </div>
+    <div class="row" style="height: 500px;">
+        <div class="col-lg-3" id="edit">
+            <div class="table">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#pageEditor" data-toggle="tab">
+                            页面编辑
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#others" data-toggle="tab">
+                            其他内容
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="pageEditor">
+                        <ul>
+                            <li class="li-control">
+                                <span>请输入标题1</span>
+                            </li>
+
+                            <li class="li-control">
+                                <span>请输入标题2</span>
+                            </li>
+                            <li class="li-control">
+
+                            </li>
+                            <li class="li-control">
+
+                            </li>
+                            <li class="li-control">
+
+                            </li>
+                            <li class="li-control">
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="others">
+                        <ol id="other">
+                            <li><a href="https://github.com/Adelamyx">git新建仓库SimpleHtmlDesigner</a></li>
+                            <li>
+                                <a href="http://getbootstrap.com/">bootstrap</a>
+                                <span>和</span>
+                                <a href="http://jquery.com/download/">jquery</a>
+                            </li>
+                            <li>
+                                <a href="http://www.runoob.com/bootstrap/bootstrap-tab-plugin.html">TAB选项卡</a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 ">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">画布</h3>
+                </div>
+                <div class="panel-body">
+                    <ul id="main-Panel"></ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-3">3</div>
+    </div>
+    <div class="row">
+        底端
+    </div>
+</div>
+</body>
+</html>
